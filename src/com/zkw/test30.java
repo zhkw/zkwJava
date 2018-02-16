@@ -49,7 +49,9 @@ public class test30 {
         LOGGER.warn(" my level is WARN");
         LOGGER.error("my level is ERROR");
         LOGGER.fatal("my level is FATAL");
-
+        
+        LOGGER.fatal("my level is FATAL1");
+        System.out.println("This is bug#1234!");
 
 	}
 
